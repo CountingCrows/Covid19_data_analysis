@@ -33,8 +33,34 @@ The timeline of this plot is from January the 1st to end of April, but we can se
 ![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/4909d083-19e3-4e9b-9df9-59cffb530420)
 
 We can notice that in the first 24 hours, infected cases rise slightly for 100 new cases. In the next day, the growth of new infected cases increased again for 250 new cases.
+We want to find a measure for the spread of the virus in this period. We can say the spread of the virus is the average number of new confirmed cases or the maximum number of new cases. Maximum number of new infected cases in every 24 ours, over our time period
 
+![Screenshot 2023-09-02 163422](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/f646c8fc-be89-4636-a6de-65b75c5be34e)
 
+This plot shows us the number of infection rates day by day in our period. Now we want to know the exact amoun of the maximum number in the plot in China and for other cou ntries.
+From this point, we will find the maximum infection rates for all countries and adding it to our dataset.
+
+We then make a new dataset to be merged with the WorldHappinessReport.csv dataset. Data cleaning is also used for this dataset where we drop the useless columns for analysis such as 'Overall Rank', 'Score', 'Generosity', and 'Perceptions of corruption'. After we change the indexes of the WorldHapinessReport.csv with the country names, we can merge both datasets by 'Country or region'.
+
+![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/ed79a944-75fe-4d6e-aed3-5ce13c744706)
+
+We want to analyse the correlation between max_infection_rates with the other 4 variables.
+
+![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/51b1a4b5-7c0a-4dcd-94ae-be02ba8165c9)
+
+In this slope, you can see there is an increase. There is a positive correlation between maximum infection rates and GDP per capita. 
+
+![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/0faff248-a815-48dc-b5dd-7899d0c1bcee)
+
+In this slope, you can see there is also an increase. There is a positive correlation between maximum infection rates and Social Support.
+
+![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/03faad06-2458-4478-853f-74b68e461fd7)
+
+In this slope, you can see there is also an increase. There is a positive correlation between maximum infection rates and Healthy Life Expectancy.
+
+![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/4ba6cfd7-6657-4e84-b8fd-7bd87bd32946)
+
+In this slope, you can see there is also an increase. There is a weak positive correlation between maximum infection rates and Freedom to make life choices.
 
 
 ## Conclusion
