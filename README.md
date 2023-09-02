@@ -1,4 +1,4 @@
-![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/4f7f62a4-ddff-431a-b286-1e93ed1bc425)# Covid19_data_analysis
+# Covid19_data_analysis
 
 In this portfolio, we'll delve into the nuances of data preparation and analysis. Starting with the preprocessing and merging of key datasets, we'll focus on fine-tuning the COVID19 dataset by eliminating specific columns and consolidating rows. Our exploration involves identifying meaningful metrics, merging datasets to discover underlying correlations, and ultimately visualizing our findings using the powerful Seaborn tool. This process aims to provide a clear understanding of our objectives, datasets, and the pertinent questions our analysis addresses.
 
@@ -21,7 +21,7 @@ We delete the Columns 'Lat' for Latitude and 'Long' for Longitude. We aggregate 
 
 ## Analysis
 First, we try to visualize the cummulative confirmed cases in China, Italy and Spain to understand the data. 
-![Screenshot 2023-09-02 161925](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/578239a9-1858-4d3a-bf07-595ba15bc25b)
+<img align="left" width="100" height="100" src="![Screenshot 2023-09-02 161925](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/578239a9-1858-4d3a-bf07-595ba15bc25b)">
 
 As we can see, COVID19 cases for the first three months of 2022 were rocketly rising in China. So we need to find a good measure reperestend as a number, describing the spread of the virus in a country.
 ![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/1a7031a0-f7ae-42ff-a9c7-6a4aa154d3f7)
