@@ -21,12 +21,17 @@ We delete the Columns 'Lat' for Latitude and 'Long' for Longitude. We aggregate 
 
 ## Analysis
 First, we try to visualize the cummulative confirmed cases in China, Italy and Spain to understand the data. 
-<img align="left" width="100" height="100" src="![Screenshot 2023-09-02 161925](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/578239a9-1858-4d3a-bf07-595ba15bc25b)">
+
+![Screenshot 2023-09-02 161925](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/578239a9-1858-4d3a-bf07-595ba15bc25b)"
 
 As we can see, COVID19 cases for the first three months of 2022 were rocketly rising in China. So we need to find a good measure reperestend as a number, describing the spread of the virus in a country.
+
 ![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/1a7031a0-f7ae-42ff-a9c7-6a4aa154d3f7)
+
 The timeline of this plot is from January the 1st to end of April, but we can see in January there's a peak rise of cases in the first month. So we want to make another plot where the timeline is the first 3 days of Covid 19 in China.
+
 ![image](https://github.com/CountingCrows/Covid19_data_analysis/assets/85608120/4909d083-19e3-4e9b-9df9-59cffb530420)
+
 We can notice that in the first 24 hours, infected cases rise slightly for 100 new cases. In the next day, the growth of new infected cases increased again for 250 new cases.
 
 
